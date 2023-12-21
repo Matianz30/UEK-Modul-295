@@ -115,7 +115,6 @@ app.patch('/lends/:id', (req, res) => {
 });
 
 app.get('/bookssss', (request, response) => {
-    console.log(422)
     response.send(books);
 });
 
